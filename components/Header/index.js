@@ -7,7 +7,7 @@ const Header = ({ title = 'Dra Livia 12 | Para seguir cuidando bem de Pires Ferr
         <>
             <Head>
                 <title>{title}</title>
-                <link rel="icon" href="/static/favicon/icon-32.png" type="image/png" sizes="32x32"></link>
+                {/* <link rel="icon" href="/static/favicon/icon-32.png" type="image/png" sizes="32x32"></link> */}
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
 
                 <meta charSet="utf-8" />
