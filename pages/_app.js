@@ -1,7 +1,17 @@
-import '../styles/globals.css'
+import React from 'react';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './global.css';
+
+import Layout from '../components/Layout';
+
+const MyApp = ({ Component, pageProps }) => {
+    return (
+        <h1>PÁGINA EM CONSTRUÇÃO</h1>
+        // <Layout>
+        //     <Component {...pageProps} />
+        // </Layout>
+    );
 }
 
-export default MyApp
+export default MyApp;
