@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'
 
 const BioText = () => {
     return (
@@ -10,7 +11,7 @@ const BioText = () => {
                 background: '#FFF',
                 flexWrap: 'wrap',
             }}>
-                <img className='img-fluid mr-5 ml-5' src="/static/images/prefeita.png" alt="Biografia Dra. Laís" />
+                <Image className='img-fluid mr-5 ml-5' src="/static/images/prefeita.png" alt="Biografia Dra. Laís" />
                 <div className='mr-5 ml-5'>
                     <h2 className='mb-4'
                         style={{
@@ -64,7 +65,7 @@ const BioText = () => {
                 flexWrap: 'wrap'
 
             }}>
-                <img className='img-fluid mr-5 ml-5' src="/static/images/vice.png" alt="Biografia Anderson Pedrosa" />
+                <Image className='img-fluid mr-5 ml-5' src="/static/images/vice.png" alt="Biografia Anderson Pedrosa" />
                 <div className='mr-5 ml-5'>
                     <h2 className='mb-4'
                         style={{

@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'
 
 const Material = () => {
 
@@ -31,8 +32,8 @@ const Material = () => {
                     justifyContent: 'center',
                     alignItems: 'center'
                 }}>
-                    <a href="https://drive.google.com/file/d/1fk96KCgTW5pu-RoZM249JnB4Ffpqjj9L/view?usp=sharing" target='_blank'>
-                        <img src='/static/images/icon_pdf.png' alt='Icone PDF' />
+                    <a href="https://drive.google.com/file/d/1fk96KCgTW5pu-RoZM249JnB4Ffpqjj9L/view?usp=sharing" target='_blank' rel='noreferrer'>
+                        <Image src='/static/images/icon_pdf.png' alt='Icone PDF' />
                     </a>
                     <h5 style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
@@ -54,8 +55,8 @@ const Material = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}>
-                    <a href="https://drive.google.com/drive/folders/1lG9Hmh_tLN7nn8FW5QO8Kd3V80a5XaSi?usp=sharing" target='_blank'>
-                        <img src='/static/images/icon_jingle.png' alt='Icone Jingle' />
+                    <a href="https://drive.google.com/drive/folders/1lG9Hmh_tLN7nn8FW5QO8Kd3V80a5XaSi?usp=sharing" rel="noreferrer" target='_blank'>
+                        <Image src='/static/images/icon_jingle.png' alt='Icone Jingle' />
                     </a>
                     <h5 style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
@@ -77,8 +78,8 @@ const Material = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}>
-                    <a href="https://drive.google.com/drive/folders/173ntA71K4Swbs6GW9pvYStYoKzzIs6Kt?usp=sharing" target='_blank'>
-                        <img src='/static/images/icon_material.png' alt='Icone Material' />
+                    <a href="https://drive.google.com/drive/folders/173ntA71K4Swbs6GW9pvYStYoKzzIs6Kt?usp=sharing" rel="noreferrer" target='_blank'>
+                        <Image src='/static/images/icon_material.png' alt='Icone Material' />
                     </a>
                     <h5 style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
@@ -100,8 +101,8 @@ const Material = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}>
-                    <a href="https://linktr.ee/dralivia12" target='_blank'>
-                        <img src='/static/images/icon_stickers.png' alt='Icone Stickers' />
+                    <a href="https://linktr.ee/dralivia12" rel="noreferrer" target='_blank'>
+                        <Image src='/static/images/icon_stickers.png' alt='Icone Stickers' />
                     </a>
 
                     <h5 style={{
@@ -119,7 +120,7 @@ const Material = () => {
                     }}>Baixe figurinhas de WhatsApp, filtros do instagram e mostre seu apoio espalhando em todos os grupos e amigos.</span>
                 </div>
             </div>
-            <a className='download-button' href="https://drive.google.com/drive/folders/1up_P_JW1B3TTa_sfNqQF0HV0hIMoakeR?usp=sharing" target='_blank'
+            <a className='download-button' href="https://drive.google.com/drive/folders/1up_P_JW1B3TTa_sfNqQF0HV0hIMoakeR?usp=sharing" rel="noreferrer" target='_blank'
             ><span
                 style={{
                     fontFamily: "'Baloo Tamma 2', cursive",

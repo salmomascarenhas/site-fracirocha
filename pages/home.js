@@ -1,10 +1,11 @@
 import React from 'react';
+import Image from 'next/image'
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 
 const Home = () => {
     return (
         <div id='home' className='container-fluid vh-100 position-relative' >
-            <img
+            <Image
                 src='static/images/home_background.png'
                 className='img-fluid'
                 style={

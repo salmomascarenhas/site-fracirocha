@@ -58,8 +58,8 @@ const Social = () => {
                     }}>@draliviamuniz</h3>
             </div>
             <div className='d-flex flex-row'>
-                <a href="https://www.facebook.com/draliviaprefeita" className='icon-social' rel='noopener' target='_blank' ><Facebook fontSize='inherit' /></a>
-                <a href="https://www.instagram.com/draliviamuniz/" className='icon-social' style={{ margin: '0 30px' }} rel='noopener' target='_blank' ><Instagram fontSize='inherit' /></a>
+                <a href="https://www.facebook.com/draliviaprefeita" className='icon-social' rel="noreferrer" target='_blank' ><Facebook fontSize='inherit' /></a>
+                <a href="https://www.instagram.com/draliviamuniz/" className='icon-social' style={{ margin: '0 30px' }} rel="noreferrer" target='_blank' ><Instagram fontSize='inherit' /></a>
             </div>
         </div >
     );
