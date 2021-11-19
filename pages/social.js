@@ -6,7 +6,8 @@ const Social = () => {
         <div className='container-fluid d-flex flex-column justify-content-center align-items-center'
             style={{
                 minHeight: '700px',
-                backgroundImage: "url('/static/images/background_4.png')",
+                // backgroundImage: "url('/static/images/background_4.png')",
+                backgroundColor:'#33cc66',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover'
@@ -19,11 +20,11 @@ const Social = () => {
                     lineHeight: '40px',
                     fontWeight: '800',
                     letterSpacing: '-3px',
-                    color: '#FF6600',
+                    color: '#FFFF',
                     wordSpacing: '4px',
                     textTransform: 'uppercase',
                 }}>
-                acompanhe dra. lívia<br />nas redes sociais
+                acompanhe franci rocha<br />nas redes sociais
             </h1>
             <p
                 style={{
@@ -37,10 +38,10 @@ const Social = () => {
                     color: '#FFF',
                     wordSpacing: '2px',
                 }}>
-                Fique por dentro de tudo que<br />vamos fazer por Pires Ferreira.</p>
+                Fique por dentro de tudo que<br />vamos fazer por Viçosa do Ceará.</p>
             <div className='w-20 h-20'
                 style={{
-                    background: '#FFF',
+                    background: '#26944a',
                     padding: '30px 40px 30px 40px',
                     margin: '20px'
                 }}>
@@ -53,13 +54,13 @@ const Social = () => {
                         lineHeight: '28px',
                         fontWeight: '600',
                         letterSpacing: '-2px',
-                        color: '#FF6600',
+                        color: '#FFFF',
                         wordSpacing: '2px',
-                    }}>@draliviamuniz</h3>
+                    }}>@francirochaoficial</h3>
             </div>
             <div className='d-flex flex-row'>
-                <a href="https://www.facebook.com/draliviaprefeita" className='icon-social' rel="noreferrer" target='_blank' ><Facebook fontSize='inherit' /></a>
-                <a href="https://www.instagram.com/draliviamuniz/" className='icon-social' style={{ margin: '0 30px' }} rel="noreferrer" target='_blank' ><Instagram fontSize='inherit' /></a>
+                <a href="https://www.facebook.com/francirochaoficial" className='icon-social' rel="noreferrer" target='_blank' ><Facebook fontSize='inherit' /></a>
+                <a href="https://www.instagram.com/francirochaoficial/" className='icon-social' style={{ margin: '0 30px' }} rel="noreferrer" target='_blank' ><Instagram fontSize='inherit' /></a>
             </div>
         </div >
     );

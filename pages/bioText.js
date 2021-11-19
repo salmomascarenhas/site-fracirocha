@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'
+
 
 const BioText = () => {
     return (
@@ -8,10 +8,10 @@ const BioText = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                background: '#FFF',
+                background: '#2c8056',
                 flexWrap: 'wrap',
             }}>
-                <Image className='img-fluid mr-5 ml-5' src="/static/images/prefeita.png" alt="Biografia Dra. Laís" />
+                <img className='img-fluid mr-5 ml-5' src="/static/images/prefeito.png" width={'128px'} height={'151px'} alt="Biografia Franci Rocha" />
                 <div className='mr-5 ml-5'>
                     <h2 className='mb-4'
                         style={{
@@ -21,51 +21,43 @@ const BioText = () => {
                             lineHeight: '32px',
                             fontWeight: '800',
                             letterSpacing: '-3px',
-                            color: '#FF6600',
+                            color: '#F3F3F3',
                             wordSpacing: '4px',
                             textTransform: 'uppercase',
                             marginTop: '30px'
-                        }}>Conheça mais<br />Dra. Lívia</h2>
+                        }}>Conheça <br />Franci Rocha</h2>
                     <p style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
                         fontSize: '20px',
                         textAlign: 'center',
                         fontWeight: '400',
-                        color: '#FF6600',
+                        color: '#F3F3F3',
                         letterSpacing: '-1px',
                         wordSpacing: '3px',
                         maxWidth: '700px',
-                    }}>Lívia Muniz nasceu em 1990, em Ipu. É filha do Dr. Bonfim, 
-                    um médico que trabalhou na fundação CESP em Ipu e lá 
-                    fez carreira; E de dona Efigênia, enfermeira, empresária 
-                    e vereadora por três mandatos. É neta da dona Bebê e do 
-                    seu Enoque, um agricultor que morava em Pires Ferreira. 
-                    Quando vivo, seu Enoque foi prefeito de Pires Ferreira e
-                     ajudou muitas  pessoas, principalmente os que mais precisam. 
-                    Aos 17 anos, com o sonho de seguir a carreira de seu pai, Lívia 
-                    foi aprovada no vestibular de medicina em Fortaleza. 
-                    Se formou em 2013 
-                    e logo em seguida foi exercer sua profissão em 
-                    Pires Ferreira, de onde surgiu o desejo de cuidar
-                     ainda mais das pessoas. Lívia é casada há 
-                    quase 6 anos, e tem um bebê de 2 anos. Sua concunhada Marfisa 
-                    é a atual prefeita de Pires Ferreira e a convidou para dar 
-                    continuidade a esse trabalho do BEM que está sendo 
-                    realizado em prol da população de Pires Ferreira. 
-                    Lívia, uma mulher, médica, mãe, esposa, de muita 
-                    garra e coragem, conta com a população para ser 
-                    prefeita Para Seguir Cuidando Bem de Pires Ferreira. Dra. Lívia, 12.</p>
+                    }}>Francisco João Cardoso Filho, conhecido como Franci Rocha, nasceu em 01 de julho de 1968, em Cocal, Piauí. É filho de Francisco João Cardoso, conhecido como Chico Rocha, e de Francisca Aguiar Silva Cardoso, conhecida como Francileide. 
+
+                    Franci Rocha perdeu seu pai aos 16 anos, quando tornou-se muito jovem o responsável pelos seus 3 irmãos e provedor da casa, junto de sua mãe. Franci deu continuidade ao trabalho de seu pai, na agricultura, moagem e criação de animais. 
+                    
+                    Aos 19 anos, casou-se com Ana Vieira de Araújo, com quem teve 4 filhos: Nayane, Nayara, Marcelo e Marcos Antônio.
+                    
+                    Em 1996, mudou-se para Viçosa do Ceará para que seus filhos pudessem estudar. Para garantir o sustento da sua família, Franci trabalhou com transporte de passageiros, de mercadorias para a CEASA e posteriormente comprou um ônibus para excursões.
+                    
+                    Mesmo com os seus outros trabalhos, Franci nunca deixou de trabalhar na agricultura. Até que abriu um comércio de gênero alimentício, onde toda sua família trabalhava. 
+                    
+                    Franci sempre foi um homem trabalhador e honesto, seguindo o exemplo de seu pai. 
+                    Amigo de longas datas e sempre acompanhando o trabalho de Zé Firmino, Franci Rocha decidiu seguir a carreira política, como candidato a prefeito, ao lado de Shill como vice, para dar continuidade ao trabalho que vem sendo realizado em Viçosa do Ceará.</p>
                 </div>
             </section>
             <section className='pt-5 pb-5 w-100' style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                background: '#F4F4F4',
+                background: '#7fce3a',
                 flexWrap: 'wrap'
 
             }}>
-                <Image className='img-fluid mr-5 ml-5' src="/static/images/vice.png" alt="Biografia Anderson Pedrosa" />
+                <img className='img-fluid mr-5 ml-5' src="/static/images/vice.png" width={'128px'} height={'150px'} alt="Biografia Shill" />
                 <div className='mr-5 ml-5'>
                     <h2 className='mb-4'
                         style={{
@@ -75,31 +67,29 @@ const BioText = () => {
                             lineHeight: '32px',
                             fontWeight: '800',
                             letterSpacing: '-3px',
-                            color: '#FF6600',
+                            color: '#F3F3F3',
                             wordSpacing: '4px',
                             textTransform: 'uppercase',
                             marginTop: '30px'
-                        }}>Conheça mais<br />Fabiana</h2>
+                        }}>Conheça<br />Shill</h2>
                     <p style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
                         fontSize: '20px',
                         textAlign: 'center',
                         fontWeight: '400',
-                        color: '#FF6600',
+                        color: '#F3F3F3',
                         letterSpacing: '-1px',
                         wordSpacing: '3px',
                         maxWidth: '700px',
-                    }}>Francisca Fabiana Rodrigues de Sousa, nascida em Pires Ferreira, é filha do agricultor Domingos Magalhães de Sousa e da professora Francisca Rodrigues de Sousa. Em 1998, casou-se com Eriberto de Sousa Paiva, onde a partir daí iniciou a sua vida na política por seu esposo ser vereador na cidade. Do casamento, teve três filhos: Caio, Eriberto Filho e Domingos Neto. 
+                    }}>Francisco das Chagas Rodrigues de Carvalho, conhecido como Shill, é filho de Chico Margarida e Dona Vitória, dois agricultores que levaram a vida com muito trabalho e com muita dignidade para criar os 6 filhos. 
 
-                    Sua vida profissional se deu a partir da realização de um curso de auxiliar de enfermagem, trabalhando no posto de saúde do distrito de Delmiro Gouveia, em Pires Ferreira. 
+                    Shill ajudou seu pai no trabalho desde muito cedo e aos 15 anos ingressou na vida militar, servindo a Marinha do Brasil por 7 anos. 
                     
-                    Em 2010, ingressou no curso de História, pelo Instituto de Formação Teológica (IFET), se formando em 2013.
+                    Como sempre foi muito apegado à família, voltou para Viçosa após 7 anos e começou a trabalhar com material de construção, onde continua até hoje, dando emprego para mais de 20 famílias, com muito trabalho, honestidade e dignidade. 
                     
-                    Em 2012, Fabiana candidatou-se a vereadora no município de Pires Ferreira, sendo eleita com 706 votos, ficando na história da cidade como a vereadora mais bem votada. 
+                    Shill sempre foi apaixonado pela sua cidade e ajuda como pode o povo viçosense. Sempre acompanhou de perto a política de Viçosa a fim de ver a sua terra crescer e se desenvolver, com mais oportunidade para todos. 
                     
-                    Em 2014, iniciou o curso de Serviço Social, pela Faculdade Kurios, se formando em 2017.
-                    
-                    Em 2016, Fabiana foi eleita vice-prefeita, e hoje quer dar continuidade a esse trabalho juntamente com a candidata a prefeita Dra. Lívia.</p>
+                    Hoje Shill é candidato a vice-prefeito ao lado de Franci Rocha 15 para darem continuidade ao trabalho em prol de uma cidade cada vez mais livre e justa.</p>
                 </div>
             </section>
         </div >

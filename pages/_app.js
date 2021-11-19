@@ -7,10 +7,9 @@ import Layout from '../components/Layout';
 
 const MyApp = ({ Component, pageProps }) => {
     return (
-        <h1>PÁGINA EM CONSTRUÇÃO</h1>
-        // <Layout>
-        //     <Component {...pageProps} />
-        // </Layout>
+        <Layout>
+            <Component {...pageProps} />
+        </Layout>
     );
 }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'
+
 
 const Material = () => {
 
@@ -14,7 +14,7 @@ const Material = () => {
                     lineHeight: '40px',
                     fontWeight: '800',
                     letterSpacing: '-3px',
-                    color: '#D10155',
+                    color: '#339966',
                     wordSpacing: '4px',
                     textTransform: 'uppercase',
                     paddingTop: '3rem'
@@ -33,21 +33,21 @@ const Material = () => {
                     alignItems: 'center'
                 }}>
                     <a href="https://drive.google.com/file/d/1fk96KCgTW5pu-RoZM249JnB4Ffpqjj9L/view?usp=sharing" target='_blank' rel='noreferrer'>
-                        <Image src='/static/images/icon_pdf.png' alt='Icone PDF' />
+                        <img src='/static/images/icon_pdf.png' width={'64px'} height={'70px'}  alt='Icone PDF' />
                     </a>
                     <h5 style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
                         fontWeight: '600',
                         textAlign: 'center',
-                        color: '#D10155',
+                        color: '#33cc66',
                         marginTop: '1rem',
                     }}>Plano de Governo (PDF)</h5>
                     <span style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
                         maxWidth: '250px',
                         textAlign: 'center',
-                        color: '#FF6600',
-                    }}>Baixe o Plano de Governo e conheça todas as nossas propostas para uma Pires Ferreira cada vez melhor.</span>
+                        color: '#808080',
+                    }}>Baixe o Plano de Governo e conheça todas as nossas propostas pra fazer ainda mais.</span>
                 </div>
                 <div style={{
                     display: 'flex',
@@ -56,20 +56,20 @@ const Material = () => {
                     alignItems: 'center',
                 }}>
                     <a href="https://drive.google.com/drive/folders/1lG9Hmh_tLN7nn8FW5QO8Kd3V80a5XaSi?usp=sharing" rel="noreferrer" target='_blank'>
-                        <Image src='/static/images/icon_jingle.png' alt='Icone Jingle' />
+                        <img src='/static/images/icon_jingle.png' width={'54px'} height={'74px'}  alt='Icone Jingle' />
                     </a>
                     <h5 style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
                         fontWeight: '600',
                         textAlign: 'center',
-                        color: '#D10155',
+                        color: '#33cc66',
                         marginTop: '1rem',
                     }}>Jingle e Músicas</h5>
                     <span style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
                         maxWidth: '250px',
                         textAlign: 'center',
-                        color: '#FF6600',
+                        color: '#808080',
                     }}>Baixe nossas músicas para todo mundo ouvir.</span>
                 </div>
                 <div style={{
@@ -79,20 +79,20 @@ const Material = () => {
                     alignItems: 'center',
                 }}>
                     <a href="https://drive.google.com/drive/folders/173ntA71K4Swbs6GW9pvYStYoKzzIs6Kt?usp=sharing" rel="noreferrer" target='_blank'>
-                        <Image src='/static/images/icon_material.png' alt='Icone Material' />
+                        <img src='/static/images/icon_material.png' width={'62px'} height={'74px'}  alt='Icone Material' />
                     </a>
                     <h5 style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
                         fontWeight: '600',
                         textAlign: 'center',
-                        color: '#D10155',
+                        color: '#33cc66',
                         marginTop: '1rem',
                     }}>Material Gráfico</h5>
                     <span style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
                         maxWidth: '250px',
                         textAlign: 'center',
-                        color: '#FF6600',
+                        color: '#808080',
                     }}>Baixe todo o material gráfico da campanha.</span>
                 </div>
                 <div style={{
@@ -102,21 +102,21 @@ const Material = () => {
                     alignItems: 'center',
                 }}>
                     <a href="https://linktr.ee/dralivia12" rel="noreferrer" target='_blank'>
-                        <Image src='/static/images/icon_stickers.png' alt='Icone Stickers' />
+                        <img src='/static/images/icon_stickers.png' width={'74px'} height={'75px'} alt='Icone Stickers' />
                     </a>
 
                     <h5 style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
                         fontWeight: '600',
                         textAlign: 'center',
-                        color: '#D10155',
+                        color: '#33cc66',
                         marginTop: '1rem',
                     }}>Stickers e Filtros</h5>
                     <span style={{
                         fontFamily: "'Baloo Tamma 2', cursive",
                         maxWidth: '250px',
                         textAlign: 'center',
-                        color: '#FF6600',
+                        color: '#808080',
                     }}>Baixe figurinhas de WhatsApp, filtros do instagram e mostre seu apoio espalhando em todos os grupos e amigos.</span>
                 </div>
             </div>

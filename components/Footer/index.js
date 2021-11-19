@@ -6,7 +6,8 @@ const Footer = () => {
             <div className='container-fluid mx-auto'
                 style={
                     {
-                        backgroundImage: "url('/static/images/footer_background.png')",
+                        // backgroundImage: "url('/static/images/footer_background.png')",
+                        backgroundColor:'#006633',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover',
@@ -17,6 +18,8 @@ const Footer = () => {
                     }
                 }>
 
+                    {/* <img src="" alt="" /> */}
+
                 <span className='mt-4 mb-4'
                     style={{
                         fontFamily: 'Baloo Tamma 2, cursive',
@@ -26,8 +29,8 @@ const Footer = () => {
                         color: '#FFFF',
                         textTransform: 'uppercase',
                         textAlign: 'center'
-                    }}>COLIGAÇÃO: PARA SEGUIR CUIDANDO BEM DE PIRES FERREIRA
-                    <br />PDT - PSC - PSB - CNPJ DA CANDIDATA: 38.959.242/0001-80 </span>
+                    }}>COLIGAÇÃO: PRA FAZER AINDA MAIS
+                    <br />MDB - CNPJ DO CANDIDATO: 44.114.664/0001-57 </span>
             </div>
         </footer>
     );

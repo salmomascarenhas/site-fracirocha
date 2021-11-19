@@ -12,11 +12,11 @@ const Index = () => {
     return (
         <main>
             <Home />
-            <Intro />
+            {/* <Intro /> */}
             <BioIframe />
             <BioText />
             <Social />
-            <Material />
+            {/* <Material /> */}
         </main>
     );
 }

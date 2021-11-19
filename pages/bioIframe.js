@@ -8,7 +8,8 @@ const BioIframe = () => {
                 flexDirection: 'column',
                 justifyContent: 'space-around',
                 alignItems: 'center',
-                backgroundImage: "url('/static/images/background_3.png')",
+                backgroundColor:'#006633',
+                // backgroundImage: "url('/static/images/background_3.png')",
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover'
@@ -24,9 +25,9 @@ const BioIframe = () => {
                     color: '#FFF',
                     wordSpacing: '4px',
                     textTransform: 'uppercase',
-                }}>para seguir cuidando<br />bem de </span>
+                }}>biografia de<br />franci rocha</span>
 
-                <span style={{
+                {/* <span style={{
                     fontFamily: "'Baloo Tamma 2', cursive",
                     fontSize: '40px',
                     textAlign: 'center',
@@ -36,8 +37,8 @@ const BioIframe = () => {
                     color: '#D10155',
                     wordSpacing: '4px',
                     textTransform: 'uppercase',
-                }}>pires ferreira</span>
-                <span style={{
+                }}>pires ferreira</span> */}
+                {/* <span style={{
                     fontFamily: "'Baloo Tamma 2', cursive",
                     fontSize: '28px',
                     textAlign: 'center',
@@ -47,7 +48,7 @@ const BioIframe = () => {
                     color: '#FFF',
                     wordSpacing: '4px',
                 }}
-                ><br />Conheça um pouco da história da Dra. Lívia</span>
+                ><br />Conheça um pouco da história do Franci Rocha.</span> */}
             </div>
             <div className='embed-responsive embed-responsive-16by9'
                 style={{
@@ -55,7 +56,7 @@ const BioIframe = () => {
                 }}>
                 <iframe
                     className='embed-responsive-item'
-                    src="https://www.facebook.com/plugins/video.php?height=315&href=https%3A%2F%2Fwww.facebook.com%2Fdraliviaprefeita%2Fvideos%2F663248364303207%2F&show_text=false&width=560" width="560"
+                    src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Ffrancirochaoficial%2Fvideos%2F1275700582907994%2F&show_text=false&width=560&t=0" width="560"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

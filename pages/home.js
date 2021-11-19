@@ -5,8 +5,8 @@ import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
 const Home = () => {
     return (
         <div id='home' className='container-fluid vh-100 position-relative' >
-            <Image
-                src='static/images/home_background.png'
+            <img
+                src='/static/images/home_background.png'
                 className='img-fluid'
                 style={
                     {
@@ -23,18 +23,18 @@ const Home = () => {
                 display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                bottom: '13em',
+                bottom: '8em',
                 left: '50%',
                 transform: 'translate(-50%)',
                 width: '50px',
                 height: '50px',
-                border: ' #FF6600 solid 3px',
+                border: ' #F0C51F solid 3px',
                 borderRadius: '50%',
-                opacity: '.6'
-            }} href="#intro">
+                opacity: '.9'
+            }} href="#bioIframe">
                 <ArrowDownwardIcon style={{
                     fontSize: '40px',
-                    color: ' #FF6600'
+                    color: ' #F0C51F'
                 }} /></a>
         </div>
     );
