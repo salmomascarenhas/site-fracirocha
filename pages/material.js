@@ -32,7 +32,7 @@ const Material = () => {
                     justifyContent: 'center',
                     alignItems: 'center'
                 }}>
-                    <a href="https://drive.google.com/file/d/1fk96KCgTW5pu-RoZM249JnB4Ffpqjj9L/view?usp=sharing" target='_blank' rel='noreferrer'>
+                    <a href="https://drive.google.com/file/d/1_Vu82BlbPKQl4B7NQrFfzyH83AGRXRXP/view?usp=sharing" target='_blank' rel='noreferrer'>
                         <img src='/static/images/icon_pdf.png' width={'64px'} height={'70px'}  alt='Icone PDF' />
                     </a>
                     <h5 style={{
@@ -55,7 +55,7 @@ const Material = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}>
-                    <a href="https://drive.google.com/drive/folders/1lG9Hmh_tLN7nn8FW5QO8Kd3V80a5XaSi?usp=sharing" rel="noreferrer" target='_blank'>
+                    <a href="https://drive.google.com/drive/folders/1HrdqG2hTOGTWbEFMsZx-tlhYNOLo9dxW?usp=sharing" rel="noreferrer" target='_blank'>
                         <img src='/static/images/icon_jingle.png' width={'54px'} height={'74px'}  alt='Icone Jingle' />
                     </a>
                     <h5 style={{
@@ -78,7 +78,7 @@ const Material = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}>
-                    <a href="https://drive.google.com/drive/folders/173ntA71K4Swbs6GW9pvYStYoKzzIs6Kt?usp=sharing" rel="noreferrer" target='_blank'>
+                    <a href="https://drive.google.com/drive/folders/1tOXNsyUjSyjTihl6pGGW_SPYQh_NOFI1?usp=sharing" rel="noreferrer" target='_blank'>
                         <img src='/static/images/icon_material.png' width={'62px'} height={'74px'}  alt='Icone Material' />
                     </a>
                     <h5 style={{
@@ -101,7 +101,7 @@ const Material = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                 }}>
-                    <a href="https://linktr.ee/dralivia12" rel="noreferrer" target='_blank'>
+                    <a href="https://linktr.ee/francirocha" rel="noreferrer" target='_blank'>
                         <img src='/static/images/icon_stickers.png' width={'74px'} height={'75px'} alt='Icone Stickers' />
                     </a>
 

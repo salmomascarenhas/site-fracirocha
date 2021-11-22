@@ -16,7 +16,7 @@ const Index = () => {
             <BioIframe />
             <BioText />
             <Social />
-            {/* <Material /> */}
+            <Material />
         </main>
     );
 }
