@@ -120,7 +120,7 @@ const Material = () => {
                     }}>Baixe figurinhas de WhatsApp, filtros do instagram e mostre seu apoio espalhando em todos os grupos e amigos.</span>
                 </div>
             </div>
-            <a className='download-button' href="https://drive.google.com/drive/folders/1up_P_JW1B3TTa_sfNqQF0HV0hIMoakeR?usp=sharing" rel="noreferrer" target='_blank'
+            {/* <a className='download-button' href="https://drive.google.com/drive/folders/1up_P_JW1B3TTa_sfNqQF0HV0hIMoakeR?usp=sharing" rel="noreferrer" target='_blank'
             ><span
                 style={{
                     fontFamily: "'Baloo Tamma 2', cursive",
@@ -128,7 +128,7 @@ const Material = () => {
                     fontSize: '18px',
                     fontWeight: '28px',
                     textTransform: 'uppercase'
-                }}>Baixar Agora</span></a>
+                }}>Baixar Agora</span></a> */}
         </div >
     );
 }
