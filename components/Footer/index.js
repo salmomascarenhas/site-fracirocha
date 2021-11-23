@@ -30,7 +30,11 @@ const Footer = () => {
                         textTransform: 'uppercase',
                         textAlign: 'center'
                     }}>COLIGAÇÃO: PRA FAZER AINDA MAIS
-                    <br />MDB - CNPJ DO CANDIDATO: 44.114.664/0001-57 </span>
+                    <br />MDB - CNPJ DO CANDIDATO: 44.114.664/0001-57
+                    <br />ELEICAO SUPLEMENTAR FRANCISCO JOAO CARDOSO FILHO PREFEITO
+                    <br /><a href='mailto:faleaqui@francirocha.com' target='_blank' rel='noreferrer'>faleaqui@francirocha.com</a></span>
+
+                    
             </div>
         </footer>
     );
