@@ -9,7 +9,7 @@ const Header = ({ title = 'Franci Rocha 15 | Pra fazer ainda mais.' }) => {
                 <title>{title}</title>
                 <link rel="icon" href="/static/favicon/icon-32.png" type="image/png" sizes="32x32"></link>
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"></link>
-
+                <meta name="google-site-verification" content="zepDl4flQsfJz9UxJksi-Z6lz4yWymsuf5lsat09gQ0" />
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="og:type" content="website" />
