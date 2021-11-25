@@ -32,7 +32,7 @@ const Material = () => {
                     justifyContent: 'center',
                     alignItems: 'center'
                 }}>
-                    <a href="https://drive.google.com/file/d/1_Vu82BlbPKQl4B7NQrFfzyH83AGRXRXP/view?usp=sharing" target='_blank' rel='noreferrer'>
+                    <a href="https://drive.google.com/uc?id=1_Vu82BlbPKQl4B7NQrFfzyH83AGRXRXP&export=download" target='_blank' rel='noreferrer'>
                         <img src='/static/images/icon_pdf.png' width={'64px'} height={'70px'}  alt='Icone PDF' />
                     </a>
                     <h5 style={{

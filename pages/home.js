@@ -31,7 +31,7 @@ const Home = () => {
                 border: ' #F0C51F solid 3px',
                 borderRadius: '50%',
                 opacity: '.9'
-            }} href="#bioIframe">
+            }} href="#material">
                 <ArrowDownwardIcon style={{
                     fontSize: '40px',
                     color: ' #F0C51F'

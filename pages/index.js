@@ -13,10 +13,10 @@ const Index = () => {
         <main>
             <Home />
             {/* <Intro /> */}
+            <Material />
             <BioIframe />
             <BioText />
             <Social />
-            <Material />
         </main>
     );
 }
